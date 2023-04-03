@@ -21,7 +21,7 @@ cargo run
 
 2. The program will enter interactive mode, prompting you for commands. Available commands are create, The program will enter interactive mode, prompting you for commands. Available commands are create, test, help, and exit.
 
-## Create 
+### Create 
 To create a DFA, enter the create command when prompted. You will be asked for the alphabet, states, transitions, start state, and accept states.
 
 Example:
@@ -46,7 +46,7 @@ The program will create the DFA and display its representation.
 DFA created: DFA { alphabet: ['0', '1'], states: ["q0", "q1"], transitions: {("q0", '0'): "q0", ("q0", '1'): "q1", ("q1", '0'): "q1", ("q1", '1'): "q0"}, start: "q0", accept: ["q1"] }
 ```
 
-## Test 
+### Test 
 After creating a DFA, you can test if it accepts a given input string using the test command.
 
 Example:
@@ -62,10 +62,10 @@ The program will test the input string against the DFA and display the result.
 DFA test result: true
 ```
 
-## Help
+### Help
 To display the available commands and their descriptions, enter the help command when prompted.
 
-## Exit
+### Exit
 To exit the program, enter the exit command when prompted.
 
 License
