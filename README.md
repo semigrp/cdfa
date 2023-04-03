@@ -68,5 +68,5 @@ To display the available commands and their descriptions, enter the help command
 ### Exit
 To exit the program, enter the exit command when prompted.
 
-License
+## License
 This project is licensed under the MIT License.
