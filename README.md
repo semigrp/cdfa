@@ -1,6 +1,6 @@
-# dfa-cli
+# cdfa
 
-DFA CLI is a command-line interface program for creating and testing Deterministic Finite Automata (DFA). You can define a DFA by providing the alphabet, states, transitions, start state, and accept states. Then, you can test if the DFA accepts a given input string.
+cDFA is a command-line interface program for creating and testing Deterministic Finite Automata (DFA). You can define a DFA by providing the alphabet, states, transitions, start state, and accept states. Then, you can test if the DFA accepts a given input string.
 
 ## Installation
 
